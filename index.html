@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+            color:white;
+        }
+        .main-container{
+            height:100vh;
+            width:100vw;
+            background-color: antiquewhite;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .container{
+            height:60%;
+            width:50%;
+            border-radius:46px;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            padding:20px;
+            background-image: url("bg.png");
+
+            
+        }
+        .box1,.box2,.box3{
+            height:30%;
+            width:100%;
+            display:flex;
+            justify-content: left;
+        }
+        .box1{
+            height:30%;
+            width:100%;
+            display:flex;
+            justify-content: left;
+
+        }
+        .box3{
+            margin-bottom: 10px;
+            height:25%;
+        }
+        .box1-left{
+width:50%;
+height:100%;
+        }
+        .box1-right{
+            width:50%;
+height:100%;
+
+        }
+        .box1-left{
+            display:flex;
+            gap:20px;
+            align-items: center;
+            padding-left: 5px;
+        }
+        .box1-left-img{
+height:80%;
+width:35%;
+        }
+        .box1-left-img img{
+            width:100%;
+            height:100%;
+        }
+        .box1-left-text{
+            display:flex;
+            gap:20px;
+            align-items:start;
+            font-size: 2.3rem;
+            position:relative;
+            /* top:-11px; */
+            /* padding-top:20px; */
+        }.box1-right-img{
+            height:80%;
+width:35%;
+        }
+        .box1-right-img img{
+            width:100%;
+            height:100%;
+        }
+        .box1-right{
+            display:flex;
+            gap:20px;
+            align-items: center;
+            padding-left: 5px;
+            justify-content:right;
+            padding-right:20px;
+        }
+        .box2-left{
+            padding-left:20px;
+            padding-top: 35px;
+            font-size: 1.6rem;
+            line-height: 35px;
+        }
+        .box3-right{
+            padding-right:20px;
+font-size: 1.5rem;
+width:50%;
+height:80%;
+display: flex;
+flex-direction: column;
+align-items: end;
+line-height:35px;
+        }
+        .box3-right p span{
+            text-align: left;
+        }
+        .box3-left{
+            padding-left:20px;
+font-size: 2rem;
+width:50%;
+height:80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+<div class="box1">
+<div class="box1-left">
+<div class="box1-left-img">
+<img src="/logo.png">
+</div>
+<div class="box1-left-text">
+    <p><span>Master card</span></p>
+</div>
+</div>
+<div class="box1-right">
+    <div class="box1-right-img">
+        <img src="/chip.png">
+        </div>
+</div>
+</div>
+<div class="box2">
+    <div class="box2-left">
+<p>Card Number</p>
+<p>1234 5678 9011 1213</p>
+    </div>
+    <div class="box2-right">
+
+    </div>
+</div>
+<div class="box3">
+    <div class="box3-left">
+<p>Mayur pal</p>
+    </div>
+    <div class="box3-right">
+<p>valid thru</p>
+<p><span>05/28</span></p>
+    </div>
+</div>
+        </div>
+    </div>
+</body>
+</html>
